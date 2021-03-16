@@ -1,8 +1,30 @@
-import React, {useRef} from "react";
+import React, {useRef, useEffect} from "react";
 import {OptionsNav} from "../styles/MenuOptionsStyles";
+import anime from "animejs"
 const MenuOptions = ({clickMenu}) => {
+    const Navref = useRef();
+    useEffect(()  => {
+        clickMenu ? 
+        anime({
+            targets: Navref.current,
+            opacity: [0, 1],
+            translateX: "-100%",
+            duration: 500,
+            easing: 'easeInBack',
+            autoplay: true,
+        }) :
+        anime({
+            targets: Navref.current,
+            opacity: [0, 1],
+            translateX: "0",
+            duration: 800,
+            easing: 'easeOutBack',
+            autoplay: true,
+        })
+
+    },[clickMenu])
     return(
-        <OptionsNav>
+        <OptionsNav ref={Navref}>
             <p>
                 Hola
             </p>
