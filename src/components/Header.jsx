@@ -18,7 +18,10 @@ const Header = ({clickMenu,handleclick}) => {
         Clickref.current.onclick = effectClick.play;
     }, [clickMenu])
     return (
-            <NavigationBar  >
+            <NavigationBar 
+            initial={{opacity:0}}
+            animate={{opacity:1}}
+            transition={{duration:1.5}}>
                 <Logo>
                     CJ
                 </Logo>

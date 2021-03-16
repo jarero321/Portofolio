@@ -1,8 +1,9 @@
 import {Colors} from "../styles/Colors.js";
 import styled from "styled-components";
+import {motion} from "framer-motion";
 
 
-export const NavigationBar = styled.nav`
+export const NavigationBar = styled(motion.nav)`
     width:100%;
     height:10%;
     display:flex;

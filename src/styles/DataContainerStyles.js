@@ -1,11 +1,11 @@
 import styled from "styled-components";
 import {Colors} from "../styles/Colors.js";
-
+import {motion} from "framer-motion";
 export const SectionContainer = styled.section`
     width:100%;
     height:90%;
 `;
-export const ImgLanding = styled.img`
+export const ImgLanding = styled(motion.img)`
 width:100%;
 height:60%;
 `;
@@ -17,7 +17,7 @@ export const ContainerText = styled.div`
     align-items:center;
     justify-content:center;
 `;
-export const Text1 = styled.p`
+export const Text1 = styled(motion.p)`
     font-family:"TMC";
     font-size:20px;
     color:${Colors.letters};
@@ -28,7 +28,7 @@ export const Text1 = styled.p`
 export const Text2 = styled(Text1)`
 
 `;
-export const Title1 = styled.h1`
+export const Title1 = styled(motion.h2)`
     font-family:"TMC";
     font-size:40px;
     color:${Colors.title};
@@ -39,7 +39,7 @@ export const Title1 = styled.h1`
 export const Title2 = styled(Title1)`
     color:${Colors.main}
 `;
-export const ButtonContact = styled.div`
+export const ButtonContact = styled(motion.div)`
     width:70%;
     height:10%;
     border: 2px solid ${Colors.main};
