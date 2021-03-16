@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.js": "/Portofolio/static/js/main.4a4ac087.chunk.js",
+    "main.js.map": "/Portofolio/static/js/main.4a4ac087.chunk.js.map",
+    "runtime-main.js": "/Portofolio/static/js/runtime-main.96642723.js",
+    "runtime-main.js.map": "/Portofolio/static/js/runtime-main.96642723.js.map",
+    "static/js/2.d3b99dff.chunk.js": "/Portofolio/static/js/2.d3b99dff.chunk.js",
+    "static/js/2.d3b99dff.chunk.js.map": "/Portofolio/static/js/2.d3b99dff.chunk.js.map",
+    "static/js/3.67dd7b1a.chunk.js": "/Portofolio/static/js/3.67dd7b1a.chunk.js",
+    "static/js/3.67dd7b1a.chunk.js.map": "/Portofolio/static/js/3.67dd7b1a.chunk.js.map",
+    "index.html": "/Portofolio/index.html",
+    "static/js/2.d3b99dff.chunk.js.LICENSE.txt": "/Portofolio/static/js/2.d3b99dff.chunk.js.LICENSE.txt",
+    "static/media/MSGOTHIC.1e0e7fbc.TTF": "/Portofolio/static/media/MSGOTHIC.1e0e7fbc.TTF",
+    "static/media/MenuClosed.10bf38e7.svg": "/Portofolio/static/media/MenuClosed.10bf38e7.svg",
+    "static/media/MenuOpen.607c81a8.svg": "/Portofolio/static/media/MenuOpen.607c81a8.svg",
+    "static/media/MoonLoading.900a21f7.svg": "/Portofolio/static/media/MoonLoading.900a21f7.svg",
+    "static/media/TCM.7b67eec0.TTF": "/Portofolio/static/media/TCM.7b67eec0.TTF"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.96642723.js",
+    "static/js/2.d3b99dff.chunk.js",
+    "static/js/main.4a4ac087.chunk.js"
+  ]
+}
