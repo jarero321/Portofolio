@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="373" height="373" viewBox="0 0 373 373">
+  <defs>
+    <filter id="Trazado_1" x="81.527" y="85.904" width="210.599" height="210.599" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="LandingLuna" transform="translate(-2 -50)">
+    <circle id="Elipse_39" data-name="Elipse 39" cx="186.5" cy="186.5" r="186.5" transform="translate(2 50)" fill="rgba(177,177,177,0.05)"/>
+    <circle id="Elipse_38" data-name="Elipse 38" cx="162" cy="162" r="162" transform="translate(27 74)" fill="rgba(177,177,177,0.3)"/>
+    <circle id="Elipse_37" data-name="Elipse 37" cx="129" cy="129" r="129" transform="translate(60 107)" fill="rgba(177,177,177,0.5)"/>
+    <circle id="Elipse_36" data-name="Elipse 36" cx="104.5" cy="104.5" r="104.5" transform="translate(84 132)" fill="rgba(177,177,177,0.9)"/>
+    <g transform="matrix(1, 0, 0, 1, 2, 50)" filter="url(#Trazado_1)">
+      <path id="Trazado_1-2" data-name="Trazado 1" d="M90.3,0A90.3,90.3,0,1,1,0,90.3,90.3,90.3,0,0,1,90.3,0Z" transform="translate(96.53 95.9)" fill="#fff"/>
+    </g>
+    <circle id="Elipse_13" data-name="Elipse 13" cx="12" cy="12" r="12" transform="translate(115 212)" fill="#ccc"/>
+    <circle id="Elipse_14" data-name="Elipse 14" cx="19" cy="19" r="19" transform="translate(204 258)" fill="#ccc"/>
+    <circle id="Elipse_15" data-name="Elipse 15" cx="9.5" cy="9.5" r="9.5" transform="translate(223 175)" fill="#ccc"/>
+  </g>
+</svg>

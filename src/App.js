@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Normalize from 'react-normalize';
+import GlobalStyle from "./styles/GlobalStyles.js"
+import LandingPage from "./components/LandingPage";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* normalize the css */}
+      <Normalize/>
+      {/* global styles  and reset css */}
+      <GlobalStyle/>
+      {/* Landing page with loader  */}
+      <LandingPage/>
+      
+
+
     </div>
   );
 }
