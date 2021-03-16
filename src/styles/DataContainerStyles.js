@@ -49,11 +49,11 @@ export const ButtonContact = styled.div`
     left:15%;
     p{
         font-family:"TMC";
-        font-size:20px;
+        font-size:30px;
         color:${Colors.title};
         text-align:center;
         position:relative;
-        top:25%;
+        top:15%;
     }
     @media (min-width:768px){
         width:50%;

@@ -1,5 +1,6 @@
 import {Colors} from "../styles/Colors.js";
 import styled from "styled-components";
+import {motion} from "framer-motion";
 
 export const OptionsNav = styled.div`
     position: fixed;

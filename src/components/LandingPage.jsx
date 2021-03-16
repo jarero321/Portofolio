@@ -1,18 +1,14 @@
-import React, {useEffect, useState} from "react";
+import React, { Fragment , Suspense } from "react";
 import LoadingPage from "./LoadingPage.jsx"
-import PageContain from "./PageContain.jsx";
+const PageContain = React.lazy(() => import("./PageContain.jsx")
+)
 const LandingPage = () => {
-    const [loading, setloading] = useState(true);
-    useEffect(() => {
-        (loading) &&
-        setTimeout(() => {
-            setloading(!loading)
-        } , 2800 )
-    },[])
-
-    return ( 
-        (loading) ? (<LoadingPage></LoadingPage> ) :
-        (<PageContain/>)
+    return (
+        <Fragment>
+           <Suspense fallback={<LoadingPage/>}>
+               <PageContain/>
+           </Suspense>
+        </Fragment>
         )
 }
 export default LandingPage;

@@ -16,6 +16,14 @@ export const ContainerLogo = styled.div`
     position:relative;
     top:25%;
     left:5%;
+    @media (min-width:768px) {
+        width: 70%;
+        left:15%;
+    }
+    @media (min-width:1200px){
+        width:30%;
+        left:35%;
+    }
     
 `;
 export const ProgressBar = styled(motion.div)`
@@ -26,6 +34,9 @@ export const ProgressBar = styled(motion.div)`
     top:17%;
     @media(min-width:1200px){
         top:17%;
+    }
+    @media (min-width:1200px){
+        top:18%;
     }
 `;
 export const Title = styled(motion.h1)`

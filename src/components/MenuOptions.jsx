@@ -1,7 +1,6 @@
-import React from "react";
+import React, {useRef} from "react";
 import {OptionsNav} from "../styles/MenuOptionsStyles";
 const MenuOptions = ({clickMenu}) => {
-        
     return(
         <OptionsNav>
             <p>
