@@ -1,7 +1,10 @@
 import React, { Fragment , Suspense } from "react";
 import LoadingPage from "./LoadingPage.jsx"
-const PageContain = React.lazy(() => import("./PageContain.jsx")
-)
+// lazy loading con promise para mostrar el loader
+const PageContain = React.lazy(async () => {
+    await new Promise(resolve => setTimeout(resolve,2000));
+    return import("./PageContain")
+})
 const LandingPage = () => {
     return (
         <Fragment>
