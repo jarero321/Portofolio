@@ -2,14 +2,14 @@
   "files": {
     "main.js": "/Portofolio/static/js/main.b150e4bf.chunk.js",
     "main.js.map": "/Portofolio/static/js/main.b150e4bf.chunk.js.map",
-    "runtime-main.js": "/Portofolio/static/js/runtime-main.0d9d3ac2.js",
-    "runtime-main.js.map": "/Portofolio/static/js/runtime-main.0d9d3ac2.js.map",
+    "runtime-main.js": "/Portofolio/static/js/runtime-main.b34af776.js",
+    "runtime-main.js.map": "/Portofolio/static/js/runtime-main.b34af776.js.map",
     "static/js/2.57c4e101.chunk.js": "/Portofolio/static/js/2.57c4e101.chunk.js",
     "static/js/2.57c4e101.chunk.js.map": "/Portofolio/static/js/2.57c4e101.chunk.js.map",
     "static/js/3.ec542141.chunk.js": "/Portofolio/static/js/3.ec542141.chunk.js",
     "static/js/3.ec542141.chunk.js.map": "/Portofolio/static/js/3.ec542141.chunk.js.map",
-    "static/js/4.eba652d7.chunk.js": "/Portofolio/static/js/4.eba652d7.chunk.js",
-    "static/js/4.eba652d7.chunk.js.map": "/Portofolio/static/js/4.eba652d7.chunk.js.map",
+    "static/js/4.2f773fa9.chunk.js": "/Portofolio/static/js/4.2f773fa9.chunk.js",
+    "static/js/4.2f773fa9.chunk.js.map": "/Portofolio/static/js/4.2f773fa9.chunk.js.map",
     "static/js/5.d0dbc777.chunk.js": "/Portofolio/static/js/5.d0dbc777.chunk.js",
     "static/js/5.d0dbc777.chunk.js.map": "/Portofolio/static/js/5.d0dbc777.chunk.js.map",
     "index.html": "/Portofolio/index.html",
@@ -19,10 +19,11 @@
     "static/media/MenuClosed.10bf38e7.svg": "/Portofolio/static/media/MenuClosed.10bf38e7.svg",
     "static/media/MenuOpen.607c81a8.svg": "/Portofolio/static/media/MenuOpen.607c81a8.svg",
     "static/media/MoonLoading.900a21f7.svg": "/Portofolio/static/media/MoonLoading.900a21f7.svg",
+    "static/media/PokeGame.54b8a0e8.svg": "/Portofolio/static/media/PokeGame.54b8a0e8.svg",
     "static/media/TCM.7b67eec0.TTF": "/Portofolio/static/media/TCM.7b67eec0.TTF"
   },
   "entrypoints": [
-    "static/js/runtime-main.0d9d3ac2.js",
+    "static/js/runtime-main.b34af776.js",
     "static/js/2.57c4e101.chunk.js",
     "static/js/main.b150e4bf.chunk.js"
   ]
