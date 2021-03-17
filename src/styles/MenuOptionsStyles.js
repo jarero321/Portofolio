@@ -13,9 +13,9 @@ export const OptionsNav = styled.div`
     align-items: center;
     font-size:35px;
     justify-content:center;
-    margin-top:20%;
     right:-100%;
     p{
+        margin-top:5%;
         font-family:"TMC";
         margin-bottom:30%;
         color:${Colors.title}

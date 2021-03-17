@@ -32,6 +32,7 @@ export const Title1 = styled(motion.h2)`
     font-family:"TMC";
     font-size:40px;
     color:${Colors.title};
+    margin-left:3%;
     @media (min-width:768px){
         font-size:60px;
     }

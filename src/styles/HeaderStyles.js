@@ -9,6 +9,10 @@ export const NavigationBar = styled(motion.nav)`
     display:flex;
     justify-content:space-between;
     align-items:center;
+    position:fixed;
+    left:0;
+    z-index:50;
+    top:0;
 `;
 export const Logo = styled.h2`
     font-size:30px;
