@@ -10,19 +10,17 @@ const MenuOptions = ({clickMenu}) => {
             opacity: [0, 1],
             translateX: "-100%",
             duration: 500,
-            easing: 'easeInBack',
-            autoplay: true,
+            easing: 'easeInBack'
         }) :
         anime({
             targets: Navref.current,
             opacity: [1, 0],
             translateX: "0",
             duration: 500,
-            easing: 'easeInBack',
-            autoplay: true,
+            easing: 'easeInBack'
         })
 
-    })
+    },[clickMenu])
     return(
         <OptionsNav ref={Navref}>
             <p>

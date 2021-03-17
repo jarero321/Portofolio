@@ -11,7 +11,6 @@ const GlobalStyle = createGlobalStyle`
       font-family: "TMC" ;
       src: url(${TMC});
     }
-    
     background-color:#01132A;
   }
   *{

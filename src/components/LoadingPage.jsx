@@ -11,20 +11,20 @@ const LoadingPage = () => {
                 <Title
                 initial = {{opacity:0}}
                 animate = {{opacity:1}}
-                transition={{duration:1.5,delay:.5}}>Carlos</Title>
+                transition={{duration:2.5,delay:.5}}>Carlos</Title>
                 <Title2
                 initial = {{opacity:0}}
                 animate = {{opacity:1}}
-                transition={{duration:1.5, delay:.5}} >Jarero</Title2>
+                transition={{duration:2.5, delay:.5}} >Jarero</Title2>
                 <ImgLogo src={LogoLuna} alt="Logo luna"
                 initial={{y:"-500px", opacity:0}}
                 animate={{y:"0", opacity:1}}
-                transition={{ duration:1.5, delay:.5, type:"spring" , bounce:0.25}} />
+                transition={{ duration:2.5, delay:.5, type:"spring" , bounce:0.25}} />
             </ContainerLogo>
             <ProgressBar
             initial = {{width:"0",opacity:[0]}}
             animate = {{width:"100%",opacity:[0.5,1,.5,0]}}
-            transition = {{duration:2}}
+            transition = {{duration:3}}
             />
         </SectionLoading>
         )
