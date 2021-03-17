@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/Portofolio/static/js/main.11fbf431.chunk.js",
-    "main.js.map": "/Portofolio/static/js/main.11fbf431.chunk.js.map",
-    "runtime-main.js": "/Portofolio/static/js/runtime-main.38b91bfa.js",
-    "runtime-main.js.map": "/Portofolio/static/js/runtime-main.38b91bfa.js.map",
+    "main.js": "/Portofolio/static/js/main.dfbe2d12.chunk.js",
+    "main.js.map": "/Portofolio/static/js/main.dfbe2d12.chunk.js.map",
+    "runtime-main.js": "/Portofolio/static/js/runtime-main.3ca0ffb0.js",
+    "runtime-main.js.map": "/Portofolio/static/js/runtime-main.3ca0ffb0.js.map",
     "static/js/2.57c4e101.chunk.js": "/Portofolio/static/js/2.57c4e101.chunk.js",
     "static/js/2.57c4e101.chunk.js.map": "/Portofolio/static/js/2.57c4e101.chunk.js.map",
     "static/js/3.ec542141.chunk.js": "/Portofolio/static/js/3.ec542141.chunk.js",
     "static/js/3.ec542141.chunk.js.map": "/Portofolio/static/js/3.ec542141.chunk.js.map",
-    "static/js/4.de31f9df.chunk.js": "/Portofolio/static/js/4.de31f9df.chunk.js",
-    "static/js/4.de31f9df.chunk.js.map": "/Portofolio/static/js/4.de31f9df.chunk.js.map",
+    "static/js/4.c654e111.chunk.js": "/Portofolio/static/js/4.c654e111.chunk.js",
+    "static/js/4.c654e111.chunk.js.map": "/Portofolio/static/js/4.c654e111.chunk.js.map",
     "static/js/5.d0dbc777.chunk.js": "/Portofolio/static/js/5.d0dbc777.chunk.js",
     "static/js/5.d0dbc777.chunk.js.map": "/Portofolio/static/js/5.d0dbc777.chunk.js.map",
     "index.html": "/Portofolio/index.html",
@@ -19,12 +19,12 @@
     "static/media/MenuClosed.10bf38e7.svg": "/Portofolio/static/media/MenuClosed.10bf38e7.svg",
     "static/media/MenuOpen.607c81a8.svg": "/Portofolio/static/media/MenuOpen.607c81a8.svg",
     "static/media/MoonLoading.900a21f7.svg": "/Portofolio/static/media/MoonLoading.900a21f7.svg",
-    "static/media/PokeGame.a5c2bbad.svg": "/Portofolio/static/media/PokeGame.a5c2bbad.svg",
+    "static/media/PokeGame.170b0cf6.svg": "/Portofolio/static/media/PokeGame.170b0cf6.svg",
     "static/media/TCM.7b67eec0.TTF": "/Portofolio/static/media/TCM.7b67eec0.TTF"
   },
   "entrypoints": [
-    "static/js/runtime-main.38b91bfa.js",
+    "static/js/runtime-main.3ca0ffb0.js",
     "static/js/2.57c4e101.chunk.js",
-    "static/js/main.11fbf431.chunk.js"
+    "static/js/main.dfbe2d12.chunk.js"
   ]
 }

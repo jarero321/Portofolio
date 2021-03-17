@@ -64,7 +64,7 @@
           <text id="PokeGame" transform="translate(69 375.063)" fill="#e6b239" stroke="#0e377b" stroke-linejoin="round" stroke-width="4" font-size="55" font-family="PocketMonk, Pocket Monk"><tspan x="0" y="0">PokeGame</tspan></text>
         </g>
       </g>
-      <rect id="Rectángulo_42" data-name="Rectángulo 42" width="1083" height="1080" transform="translate(-3957 1746)" fill="rgba(17,223,188,0.42)"/>
+      <path id="Trazado_5" data-name="Trazado 5" d="M0,0H1083V1080H0Z" transform="translate(-3957 1746)" fill="rgba(17,223,188,0.14)"/>
     </g>
   </g>
 </svg>
