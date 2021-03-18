@@ -24,7 +24,7 @@ const HomePage = () => {
         (clickMenu==false) ? DisableScroll() : enableScroll()
     }
     return (
-        <SectionHome >
+        <SectionHome>
             <MenuOptions  clickMenu={clickMenu} />
             <ContainerHome >
                 <Header clickMenu={clickMenu}

@@ -8,14 +8,14 @@ export const SectionLoading = styled.section`
 
 `;
 export const ContainerLogo = styled.div`
-    width: 90%;
+    width: 80%;
     height: 30%;
     display:flex;
     justify-content:space-around;
     align-items:center;
     position:relative;
     top:25%;
-    left:5%;
+    left:10%;
     @media (min-width:768px) {
         width: 70%;
         left:15%;
@@ -42,7 +42,7 @@ export const ProgressBar = styled(motion.div)`
 export const Title = styled(motion.h1)`
     color:${Colors.title};
     font-family:"MS Gothic";
-    font-size:30px;
+    font-size:20px;
     position:relative;
     top:5%;
 `;

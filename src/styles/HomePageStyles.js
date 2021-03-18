@@ -6,9 +6,7 @@ export const SectionHome = styled.section`
     height:100vh;
 `;
 export const ContainerHome = styled.div`
-    width:90%;
-    height:90%;
-    position: relative;
-    left:5%;
-    top:5%;
+    width:95%;
+    height:95%;
+    margin: 0 auto;
 `;

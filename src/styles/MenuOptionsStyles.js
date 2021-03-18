@@ -4,8 +4,8 @@ import {motion} from "framer-motion";
 
 export const OptionsNav = styled.div`
     position: fixed;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     background-color:#01132A;
     z-index:20;
     display: flex;

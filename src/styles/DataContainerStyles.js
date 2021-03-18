@@ -2,8 +2,9 @@ import styled from "styled-components";
 import {Colors} from "../styles/Colors.js";
 import {motion} from "framer-motion";
 export const SectionContainer = styled.section`
-    width:100%;
+    width:90%;
     height:90%;
+    margin: 0 auto;
 `;
 export const ImgLanding = styled(motion.img)`
 width:100%;

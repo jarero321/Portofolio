@@ -1,22 +1,21 @@
 import styled from "styled-components";
 import { Colors } from "../styles/Colors.js";
+import {motion} from "framer-motion";
 
 export const SectionProjects = styled.section`
     width: 100vw;
     height: 100vh;
 `;
-export const ContainerProjects = styled.div`
+export const ContainerProjects = styled(motion.div)`
     width:90%;
-    height: 90%;
-    position:relative;
-    top:5%;
-    left:5%;
+    height: 95%;
+    margin: 0 auto;
     display:flex;
     flex-direction:column;
     align-items:center;
 
 `;
-export const TitleProjects = styled.h1`
+export const TitleProjects = styled(motion.h1)`
     color:${Colors.title};
     font-size:50px;
     font-family:"TMC"
@@ -25,7 +24,7 @@ export const Description = styled.div`
     width:100%;
     height:100%;
 `;
-export const ContainerDescription = styled.article`
+export const ContainerDescription = styled(motion.article)`
     display:flex;
     flex-direction:column;
     align-items:center;
@@ -34,22 +33,23 @@ export const ContainerDescription = styled.article`
     height:30%;
     p{
         position:relative;
-        bottom:;
         width:70%;
-        font-size:20px;
+        font-size:25px;
+        margin-top:5%;
         font-family:"TMC";
         color:${Colors.letters};
         line-height:1.5;
-        text-align:center;
+        text-align:justify;
     }
 `;
-export const IMGContainer = styled.div`
-    width:100%;
+export const IMGContainer = styled(motion.div)`
+    width:80%;
     height:80%;
     img{
         position:relative;
-        top:10%;
+        top:20%;
         width:100%;
+        left:10%;
         border-radius:10%;
         border: 1px solid ${Colors.main}
     }
@@ -75,7 +75,7 @@ export const Title = styled.div`
         font-size:35px;
     }
     h3{
-        font-size:35px;
+        font-size:30px;
         font-family:"TMC";
         color:${Colors.letters}
     }

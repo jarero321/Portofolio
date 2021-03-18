@@ -1,21 +1,15 @@
-import React,{useRef, useEffect} from "react";
-import MenuClosed from "../img/MenuClosed.svg"
-import MenuOpen from "../img/MenuOpen.svg";
-import anime from "animejs"
+import React from "react";
 import { NavigationBar, Logo, MenuHamborguer, MenuOptions } from "../styles/HeaderStyles"
 const Header = ({clickMenu,handleclick}) => {
     return (
-            <NavigationBar 
-            initial={{opacity:0}}
-            animate={{opacity:1}}
-            transition={{duration:1.5 , delay:1.5}}>
+            <NavigationBar
+            initial={{opacity:0,x:"250"}}
+            animate={{opacity:1,x:"0"}}
+            transition={{duration:1,delay:3}}>
                 <Logo>
                     CJ
                 </Logo>
-                <MenuHamborguer onClick={handleclick}
-                    src={!clickMenu ? MenuClosed : MenuOpen}
-                    >
-                </MenuHamborguer>
+                <MenuHamborguer onClick={handleclick} clickMenu={clickMenu}/>
             </NavigationBar>
     )
 }
