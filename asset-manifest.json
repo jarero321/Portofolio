@@ -2,16 +2,16 @@
   "files": {
     "main.js": "/Portofolio/static/js/main.5869a3db.chunk.js",
     "main.js.map": "/Portofolio/static/js/main.5869a3db.chunk.js.map",
-    "runtime-main.js": "/Portofolio/static/js/runtime-main.de6ff76d.js",
-    "runtime-main.js.map": "/Portofolio/static/js/runtime-main.de6ff76d.js.map",
+    "runtime-main.js": "/Portofolio/static/js/runtime-main.1e369bec.js",
+    "runtime-main.js.map": "/Portofolio/static/js/runtime-main.1e369bec.js.map",
     "static/js/2.d605e684.chunk.js": "/Portofolio/static/js/2.d605e684.chunk.js",
     "static/js/2.d605e684.chunk.js.map": "/Portofolio/static/js/2.d605e684.chunk.js.map",
-    "static/js/3.c327833e.chunk.js": "/Portofolio/static/js/3.c327833e.chunk.js",
-    "static/js/3.c327833e.chunk.js.map": "/Portofolio/static/js/3.c327833e.chunk.js.map",
-    "static/js/4.901f67a2.chunk.js": "/Portofolio/static/js/4.901f67a2.chunk.js",
-    "static/js/4.901f67a2.chunk.js.map": "/Portofolio/static/js/4.901f67a2.chunk.js.map",
-    "static/js/5.7ae3fe75.chunk.js": "/Portofolio/static/js/5.7ae3fe75.chunk.js",
-    "static/js/5.7ae3fe75.chunk.js.map": "/Portofolio/static/js/5.7ae3fe75.chunk.js.map",
+    "static/js/3.39b0a731.chunk.js": "/Portofolio/static/js/3.39b0a731.chunk.js",
+    "static/js/3.39b0a731.chunk.js.map": "/Portofolio/static/js/3.39b0a731.chunk.js.map",
+    "static/js/4.acf26b25.chunk.js": "/Portofolio/static/js/4.acf26b25.chunk.js",
+    "static/js/4.acf26b25.chunk.js.map": "/Portofolio/static/js/4.acf26b25.chunk.js.map",
+    "static/js/5.5de069cd.chunk.js": "/Portofolio/static/js/5.5de069cd.chunk.js",
+    "static/js/5.5de069cd.chunk.js.map": "/Portofolio/static/js/5.5de069cd.chunk.js.map",
     "static/js/6.454c58aa.chunk.js": "/Portofolio/static/js/6.454c58aa.chunk.js",
     "static/js/6.454c58aa.chunk.js.map": "/Portofolio/static/js/6.454c58aa.chunk.js.map",
     "static/js/7.d4c78929.chunk.js": "/Portofolio/static/js/7.d4c78929.chunk.js",
@@ -23,6 +23,7 @@
     "static/media/Desarrollador jr Carlos Jarero.3d3671da.pdf": "/Portofolio/static/media/Desarrollador jr Carlos Jarero.3d3671da.pdf",
     "static/media/Esquina.svg": "/Portofolio/static/media/Esquina.199f0c8e.svg",
     "static/media/LandingLuna.9979a95c.svg": "/Portofolio/static/media/LandingLuna.9979a95c.svg",
+    "static/media/LolSearch.bb88947f.png": "/Portofolio/static/media/LolSearch.bb88947f.png",
     "static/media/MSGOTHIC.1e0e7fbc.TTF": "/Portofolio/static/media/MSGOTHIC.1e0e7fbc.TTF",
     "static/media/MoonLoading.900a21f7.svg": "/Portofolio/static/media/MoonLoading.900a21f7.svg",
     "static/media/PokeGame.170b0cf6.svg": "/Portofolio/static/media/PokeGame.170b0cf6.svg",
@@ -31,7 +32,7 @@
     "static/media/webDeveloper.93dec1e4.svg": "/Portofolio/static/media/webDeveloper.93dec1e4.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.de6ff76d.js",
+    "static/js/runtime-main.1e369bec.js",
     "static/js/2.d605e684.chunk.js",
     "static/js/main.5869a3db.chunk.js"
   ]
